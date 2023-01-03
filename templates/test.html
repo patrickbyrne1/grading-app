@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>Welcome {{stud_name}}!</h1>
+        <p>Not {{stud_name}}?? <br> 
+           Please click <a href="/logout">here</a> to logout.</p>
+       
+        <h3>Choose a test below to see a question by question breakdown:</h3>
+        <p><a href="/tests/{{name}}"><button class=grey style="height:50px;width:100px;">Apr 23 Mock Test</button></a></p>
+        <p><a href="/testpt1/{{name}}"><button class=grey style="height:50px;width:100px;">Apr 30 Mock Test pt 1</button></a></p>
+        <p><a href="/testpt2/{{name}}"><button class=grey style="height:50px;width:100px;">Apr 30 Mock Test pt 2</button></a></p>
+        <br>
+        
+        
+    </div>  
+</body>
+</html>
